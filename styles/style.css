@@ -1,0 +1,49 @@
+html {
+  /* px means "pixels". The base font size is now 10 pixels high */
+  font-size: 10px;
+  /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p, li {
+  font-size: 17px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+  html {
+    background-color: #313131;
+  }
+
+  body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #323339;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  }
+  h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #313131;
+    text-shadow: 3px 3px 1px black;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  
+  
+    a:visited { color: gold; } /* CSS link color */
+</body>
