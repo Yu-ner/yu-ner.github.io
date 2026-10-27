@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Bloodborne Devil Empress in Marvel</title>
+  <meta name="description" content="A Murim and Marvel crossover fan fiction by Yu-ner. Seol Hwa, the Bloodborne Devil Empress, is reborn as a mortal in a world with little spiritual qi.">
+  <meta name="theme-color" content="#150d11">
+  <meta property="og:title" content="Bloodborne Devil Empress in Marvel">
+  <meta property="og:description" content="Seol Hwa, the Bloodborne Devil Empress, is reborn as a mortal in a world with little spiritual qi.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23a3202f'/%3E%3Ctext x='16' y='24' font-size='22' text-anchor='middle' fill='%23f1e6d3'%3E%E8%A1%80%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,700&display=swap">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <svg class="defs" width="0" height="0" aria-hidden="true" focusable="false">
+    <filter id="rough" x="-8%" y="-8%" width="116%" height="116%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="7" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="2.4" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </svg>
+
+  <header class="bar" id="bar" hidden>
+    <div class="wrap bar-in" id="bar-in"></div>
+    <div class="progress" id="progress" aria-hidden="true"></div>
+  </header>
+
+  <main id="app" class="wrap" data-view="home" tabindex="-1">
+    <p class="status">Loading…</p>
+  </main>
+
+  <footer class="foot" id="foot" hidden></footer>
+
+  <div class="scrim" id="scrim" hidden></div>
+
+  <aside class="drawer" id="drawer" aria-label="All chapters" hidden>
+    <div class="drawer-head">
+      <h2>Chapters</h2>
+      <button class="btn" type="button" data-act="close">Close</button>
+    </div>
+    <ol id="drawer-list"></ol>
+    <p class="hint">Left and right arrow keys switch chapters.</p>
+  </aside>
+
+  <div class="prefs" id="prefs" role="dialog" aria-label="Reading settings" hidden>
+    <fieldset>
+      <legend>Theme</legend>
+      <div class="seg">
+        <button class="btn" type="button" data-pref="theme" data-value="auto">Auto</button>
+        <button class="btn" type="button" data-pref="theme" data-value="dark">Dark</button>
+        <button class="btn" type="button" data-pref="theme" data-value="light">Light</button>
+        <button class="btn" type="button" data-pref="theme" data-value="sepia">Sepia</button>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Text size</legend>
+      <div class="size">
+        <button class="btn" type="button" data-size="-1" aria-label="Smaller text">A-</button>
+        <output id="size-out" aria-live="polite">19</output>
+        <button class="btn" type="button" data-size="1" aria-label="Larger text">A+</button>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Typeface</legend>
+      <div class="seg">
+        <button class="btn" type="button" data-pref="face" data-value="serif">Serif</button>
+        <button class="btn" type="button" data-pref="face" data-value="sans">Sans</button>
+      </div>
+    </fieldset>
+  </div>
+
+  <noscript><p class="status">This site needs JavaScript to load chapters.</p></noscript>
+
+  <script src="scripts/markdown.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
