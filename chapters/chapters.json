@@ -1,0 +1,47 @@
+{
+  "site": {
+    "title": "Bloodborne Devil Empress in Marvel",
+    "author": "Yu-ner",
+    "about": "chapters/about.md",
+    "images": [
+      {
+        "src": "images/seol_hwa.png",
+        "alt": "Seol Hwa looking at the viewer from a white void"
+      },
+      {
+        "src": "images/seol_hwa2.png",
+        "alt": "Seol Hwa, second image"
+      }
+    ],
+    "links": [
+      {
+        "label": "Buy me a Coffee",
+        "url": "https://ko-fi.com/yunerr21"
+      }
+    ],
+    "disclaimer": "Fan fiction. Marvel and Bloodborne belong to their respective owners."
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "title": "Rain on Roosevelt Avenue",
+      "file": "chapters/001.md",
+      "date": "2026-10-01",
+      "words": 157
+    },
+    {
+      "n": 2,
+      "title": "The Shop With the Crooked Sign",
+      "file": "chapters/002.md",
+      "date": "2026-10-04",
+      "words": 117
+    },
+    {
+      "n": 3,
+      "title": "What the Jars Remember",
+      "file": "chapters/003.md",
+      "date": "2026-10-08",
+      "words": 111
+    }
+  ]
+}
